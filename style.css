@@ -509,16 +509,16 @@ header nav .side li a:hover{
       opacity: 0.6;
       transition: 0.3s;
       border-radius: 20px;
-      width: 280px;
-      height: 280px;
+      width: 350px;
+      height: 350px;
       margin-left: 45px;
     }
     .offer .img .img2 img{
       opacity: 0.6;
       transition: 0.3s;
       border-radius: 20px;
-      width: 280px;
-      height: 280px;
+      width: 350px;
+      height: 350px;
       margin-left: 45px;
       margin-top: -80px;
     }
