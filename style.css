@@ -1,0 +1,632 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(21, 22, 22);
+}
+.image img{
+  width: 100%;
+  z-index: -1;
+}
+header{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+.logo{
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin: 30px 60px;
+}
+.logo h1{
+  letter-spacing: 5px;
+}
+header nav .main{
+  display: flex;
+  list-style: none;
+  margin-top: -75px;
+}
+header nav .main li{
+  margin-left: 20px;
+  padding: 10px;
+}
+header nav .main li a{
+  text-decoration: none ;
+  font-size: 20px;
+  padding: 10px;
+  color: white; 
+}
+header nav .main li a:hover{
+  border-bottom: 2px solid orange; 
+  color: orange;
+}
+header nav .main li:nth-child(1){
+  margin-left: 450px;
+}
+header nav .main li:nth-child(5){
+  margin-right: 120px;
+}
+header nav .main li:nth-child(6){
+  margin-right: -35px;
+}
+header nav .main li:nth-child(7){
+  margin-right:-35px;
+}
+header nav .main li:nth-child(8){
+  margin-right:-35px;
+}
+header nav .main li i{
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+span{
+  color: red;
+}
+header nav .side{
+  display: none;
+  flex-direction: column;
+  float: right;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(67, 67, 67);
+}
+header nav .side li{
+  margin-top: 20px;
+}
+header nav .side li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+header nav .side li i{
+  color: white;
+  margin-left: 40px;
+}
+header nav .side li a:hover{
+  border-bottom: 2px solid orange;
+}
+.bar{
+  display: none;
+}
+.image .para{
+  color: white;
+  position: relative;
+  bottom:740px;
+  text-transform: uppercase;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image .para h1{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.image .para h1 span{
+  color:rgb(254, 91, 16);
+}
+.image .para h4{
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.image .para h3{
+  padding: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 140px;
+  border: 1px solid;
+  background-color: orangered;
+}
+                  /* offer */
+.offer{
+  margin-top: -180px;
+  margin-bottom: 50px;
+}
+.offer .img{
+  display: flex;
+  justify-content: space-around;
+}
+.offer .img .img1 img{
+  opacity: 0.8;
+  transition: 0.5s;
+  border-radius: 50px;
+  border: 4px solid white;
+}
+.offer .img .img2 img{
+  opacity: 0.8;
+  transition: 0.5s;
+  border-radius: 50px;
+  border: 4px solid white;
+}
+.offer .img .img1 img:hover{
+  opacity: 1;
+}
+.offer .img .img2 img:hover{
+  opacity: 1;
+}
+
+.offer .img .img1 .head1{
+  position: relative;
+  bottom: 350px;
+  font-size: 34px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.offer .img .img1 h6{
+  position: relative;
+  bottom: 350px;
+  color: white;
+  margin-left: 14px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.offer .img .img1 h4{
+  position: relative;
+  bottom: 310px;
+  color: white;
+  padding: 10px;
+  width: 150px;
+  font-size: 25px;
+  margin-left: 180px;
+  border: 1px solid white;
+}
+.offer .img .img2 .head2{
+  position: relative;
+  bottom: 350px;
+  font-size: 34px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.offer .img .img2 h6{
+  position: relative;
+  bottom: 350px;
+  color: white;
+  margin-left: 14px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.offer .img .img2 h4{
+  position: relative;
+  bottom: 310px;
+  color: white;
+  padding: 10px;
+  width: 150px;
+  font-size: 25px;
+  margin-left: 180px;
+  border: 1px solid white;  
+}
+.offer .img .img1 h1:hover{
+  color: orangered;
+}
+.offer .img .img2 h1:hover {
+  color: orangered;
+}
+.offer .img .img1 h4:hover{
+  background-color: orangered;
+  cursor: pointer;
+}
+.offer .img .img2 h4:hover{
+  background-color: orangered;
+  cursor: pointer;
+}
+.off{
+  margin-top: -100px;
+}
+.off .name{
+  font-size: 55px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+}
+.off .images{
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.off .images .img1{
+  width: 30%;
+}
+.off .images .img2{
+  width: 30%;
+}
+.off .images .img3{
+  width: 30%;
+}
+.off .images .img1 img{
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.off .images .img2 img{
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.off .images .img3 img{
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.off .images .img1 h1{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.off .images .img2 h1{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.off .images .img3 h1{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.off .images .img1 h5{
+  color: white;
+  text-align: center;
+}
+.off .images .img2 h5{
+  color: white;
+  text-align: center;
+}
+.off .images .img3 h5{
+  color: white;
+  text-align: center;
+}
+.workouts{
+  margin: 70px;
+  width: 90%;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 2px solid red;
+}
+.workouts .im1{
+  width: 380px;
+  height: 380px;
+  transition: 0.5s ease-in;
+  filter: grayscale(0%);
+}
+.workouts .im2{
+  width: 380px;
+  height: 380px;
+  transition: 0.5s ease-in;
+  filter: grayscale(0%);
+}
+.workouts .im3{
+  width: 380px;
+  height: 380px;
+  transition: 0.5s ease-in;
+  filter: grayscale(0%);
+}
+.workouts .im4{
+  width: 300px;
+  height: 370px;
+  transition: 0.5s ease-in;
+  filter: grayscale(0%);
+}
+.workouts .im5{
+  width: 300px;
+  height: 370px;
+  transition: 0.5s ease-in;
+  filter: grayscale(0%);
+}
+.workouts .im6{
+  width: 520px;
+  height: 370px;
+  transition: 0.5s ease-in;
+  filter: grayscale(0%);
+}
+.workouts img:hover{
+  filter: grayscale(50%);
+}
+
+
+@media only screen and (max-width:600px){
+
+    .image img{
+      width: 100%;
+    }
+    header{
+      width: 100%;
+      height: 40px;
+      position: absolute;
+    }
+    .logo{
+      color: white;
+      font-size: 16px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      margin: 10px 40px;
+    }
+    .logo h1{
+      letter-spacing: 2px;
+    }
+    header nav .main{
+      display: flex;
+    }
+    header nav .main li{
+      margin-left: 10px;
+      padding: 2px;
+    }
+    header nav .main li a{
+      text-decoration: none ;
+      font-size: 20px;
+      padding: 5px;
+      color: red; 
+    }
+    header nav .main li a:hover{
+      border-bottom: 2px solid orange; 
+      color: orange;
+    }
+    header nav .main li:nth-child(1){
+      list-style: none;
+      margin-top: 65px;
+      border: 2px solid;
+      display: none;
+    }
+    header nav .main li:nth-child(5){
+      list-style: none;
+      margin-top: 65px;
+      border: 2px solid;
+      display: none;
+    }
+    header nav .main li:nth-child(6){
+      list-style: none;
+      margin-top: 65px;
+      border: 2px solid;
+      display: none;
+    }
+    header nav .main li:nth-child(7){
+      list-style: none;
+      margin-top: 65px;
+      border: 2px solid;
+      display: none;
+    }
+    header nav .main li:nth-child(8){
+      list-style: none;
+      margin-top: 65px;
+      border: 2px solid;
+      display: none;
+    }
+    header nav .main li:nth-child(9){
+      list-style: none;
+      margin-top: 65px;
+      border: 2px solid;
+      display:none;
+    }
+    header nav .main li:nth-child(10){
+      list-style: none;
+      margin-top: 40px;
+      margin-left: 60px;
+      display: flex;
+    }
+    header nav .side{
+      display: none;
+      flex-direction: column;
+      float: right;
+      width: 200px;
+      height: 300px;
+      background-color: rgb(94, 91, 91);
+      margin-top: 7px;
+    }
+    header nav .side li{
+      margin-top: 20px;
+      list-style: none;
+    }
+    header nav .side li a{
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      margin: 20px;
+      margin-top: 20px;
+      padding: 10px;
+    }
+    header nav .side li i{
+      color: white;
+      margin-left: 40px;
+    }
+    header nav .side li a:hover{
+      border-bottom: 2px solid orange;
+    }
+    .bar{
+      display: none;
+    }
+    .image .para{
+      color: white;
+      position: relative;
+      bottom:180px;
+      text-transform: uppercase;
+      margin-left: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .image .para h1{
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-size: 15px;
+      letter-spacing: 1px;
+      font-weight: bold;
+    }
+    .image .para h1 span{
+      color:rgb(254, 91, 16);
+    }
+    .image .para h4{
+      font-size: 10px;
+      letter-spacing: 1px;
+      font-weight: bold;
+    }
+    .image .para h3{
+      padding: 6px;
+      font-size: 10px;
+      text-transform: uppercase;
+      width: 70px;
+      border: 1px solid;
+      background-color: orangered;
+    }
+
+    /* offer responsive page */
+    .offer{
+      margin-top: -60px;
+    }
+    .offer .img{
+      display: flex;
+      flex-direction: column;
+    }
+    .offer .img .img1 img{
+      opacity: 0.6;
+      transition: 0.3s;
+      border-radius: 20px;
+      width: 300px;
+      height: 300px;
+      margin-left: 40px;
+    }
+    .offer .img .img2 img{
+      opacity: 0.6;
+      transition: 0.3s;
+      border-radius: 20px;
+      width: 300px;
+      height: 300px;
+      margin-left: 40px;
+      margin-top: -80px;
+    }
+    .offer .img .img1 img:hover{
+      opacity: 1;
+    }.offer .img .img2 img:hover{
+      opacity: 1;
+    }
+    
+    .offer .img .img1 .head1{
+      position: relative;
+      bottom: 220px;
+      font-size: 18px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .offer .img .img1 h6{
+      position: relative;
+      bottom: 220px;
+      color: white;
+      margin-left: 14px;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .offer .img .img1 h4{
+      position: relative;
+      bottom: 200px;
+      color: white;
+      padding: 5px;
+      width: 90px;
+      font-size: 15px;
+      margin-left: 150px;
+      border: 1px solid white;
+    }
+    .offer .img .img2 .head2{
+      position: relative;
+      bottom: 220px;
+      font-size: 18px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .offer .img .img2 h6{
+      position: relative;
+      bottom: 220px;
+      color: white;
+      margin-left: 14px;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .offer .img .img2 h4{
+      position: relative;
+      bottom: 200px;
+      color: white;
+      padding: 5px;
+      width: 90px;
+      font-size: 15px;
+      margin-left: 150px;
+      border: 1px solid white;
+    }
+    .off .name{
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    .off .images{
+      
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+    }
+    .off .images .img1{
+      width: 100%;
+      margin-left: -10px;
+      margin-bottom: 10px;
+    }
+    .off .images .img2{
+      width: 100%;
+      margin-left: -10px;
+    }
+    .off .images .img3{
+      width: 100%;
+      margin-left: -10px;
+    }
+    .off .images .img1 h1{
+      font-size: 20px;
+    }
+    .off .images .img2 h1{
+      font-size: 20px;
+    }
+    .off .images .img3 h1{
+      font-size: 20px;
+    }
+    .off .images .img1 h5{
+      margin-bottom: 20px;
+    }
+    .off .images .img2 h5{
+      margin-bottom: 20px;
+    }
+    .off .images .img3 h5{
+      margin-bottom: 20px;
+    }
+    
+
+
+}
+  
